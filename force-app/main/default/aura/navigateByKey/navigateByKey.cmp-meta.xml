@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AuraDefinitionBundle xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>48.0</apiVersion>
-    <description>Allows the user to jump to the next flow screen by pressing &apos;Enter&apos;</description>
+    <description>Allows the user to jump to navigate between flow screen by pressing a keyboard button</description>
 </AuraDefinitionBundle>
