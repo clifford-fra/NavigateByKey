@@ -1,3 +1,9 @@
 <design:component>
+	<design:attribute name="nextKey" label="Key Code Next"/>
+	<design:attribute name="previousKey" label="Key Code Previous"/>
+	<design:attribute name="finishKey" label="Key Code Finish"/>
+	<design:attribute name="useKey" label="Use event.key?"/>
+	<design:attribute name="useKeyCode" label="Use event.keyCode? (deprecated)"/>
+	<design:attribute name="useCode" label="Use event.code?"/>
 	<design:attribute name="disabled" label="Disabled?"/>
 </design:component>
