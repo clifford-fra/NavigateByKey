@@ -1,4 +1,10 @@
 <aura:component implements="lightning:availableForFlowScreens" access="global">
+    <aura:attribute name="nextKey" type="String" />
+    <aura:attribute name="previousKey" type="String" />
+    <aura:attribute name="finishKey" type="String" />
     <aura:attribute name="disabled" type="Boolean" default="false" />
-	<aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:attribute name="useKey" type="Boolean" default="false" />
+    <aura:attribute name="useKeyCode" type="Boolean" default="false" />
+    <aura:attribute name="useCode" type="Boolean" default="true" />
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
 </aura:component>
